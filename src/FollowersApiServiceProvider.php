@@ -14,8 +14,8 @@ class FollowersApiServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/followers_api.php' => config_path('followers_api.php'),
-        ], 'followers_api-config');
+            __DIR__.'/../config/followersapi.php' => config_path('followersapi.php'),
+        ], 'followersapi-config');
     }
 
     /**
@@ -26,8 +26,8 @@ class FollowersApiServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/followers_api.php',
-            'followers_api'
+            __DIR__.'/../config/followersapi.php',
+            'followersapi'
         );
     }
 }
