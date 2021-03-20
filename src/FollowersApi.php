@@ -2,7 +2,7 @@
 
 namespace Wallace\FollowersApi;
 
-use 
+//use 
 
 class FollowersApi
 {
