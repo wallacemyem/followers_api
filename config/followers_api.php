@@ -1,7 +1,7 @@
 <?php
 	
 	return [
-		'api_url' => '',
-		'api_key' => '',
+		'api_url' => env('FOLLOWERS_URLS'),,
+		'api_key' => env('FOLLOWERS_KEY'),,
 
 	];

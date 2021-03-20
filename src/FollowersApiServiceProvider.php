@@ -1,6 +1,6 @@
 <?php
 
-namespace Wallace\FollowersApiServiceProvider;
+namespace Wallace\FollowersApi;
 
 use Illuminate\Support\ServiceProvider;
 
